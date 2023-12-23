@@ -27,5 +27,3 @@
 |14|Apr 30 & May 2 | Group project status updates/Q&A | Group project, milestone 4/5 due May 4
 |  | Fri, May 3    |*last day of classes*             |
 |  | Fri, May X    |                                  | *Group project, milestone 5/5 due May 15*
-
-08036746326
