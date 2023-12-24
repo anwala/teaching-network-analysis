@@ -1,5 +1,5 @@
 # Homework 1 - Network Elements/Analysis Toolkit
-**Due:** Tuesday, February 15, 2024 by 11:59pm
+**Due:** February 15, 2024 by 11:59pm
  *Read the entire assignment before starting.*
 
 ## Assignment
@@ -36,9 +36,9 @@ Why?
 
 Consider the simple (undirected) network represented by the following graph:
 
-<img src="hw1_plot.png" alt="Simple (undirected) network for hw1 Q3" height="200"><br/>
+<img src="hw1_plot.png" alt="Simple (undirected) network for hw1 Q3" height="150"><br/>
 
-**a.** Show the degree of each node and make a plot of its (normalized) **degree distribution**.
+**a.** Show the degree of each node and make a plot of its (normalized) degree distribution.
 
 **b.** Calculate by hand: the diameter and the average path length of the network
 

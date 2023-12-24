@@ -1,5 +1,5 @@
-# Homework 3 - Hubs
-**Due:** Thursday, March 9, 2023 by 11:59pm
+# Homework 3 - Node centrality & Link analysis
+**Due:** March 6, 2024 by 11:59pm
  *Read the entire assignment before starting.*
 
 ## Assignment
@@ -8,9 +8,9 @@ Write a report that contains the answers and *explains how you arrived at the an
 
 A common use of the word "hub" in everyday speech is to describe airports that serve many routes (direct flights). Load the [OpenFlights US flight network](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/raw/master/datasets/openflights/openflights_usa.graphml.gz) into a NetworkX graph to answer the following questions
 
-(**Google Colab Report (2 points**)
+(**Google Colab Report (1 point**)
 
-### Q1 (2 points)
+### Q1 (1 point)
 
 Draw the OpenFlighs US flight network graph. Ensure the graph is legible and pretty:
 * Node labels are visible
@@ -24,6 +24,16 @@ Draw the OpenFlighs US flight network graph. Ensure the graph is legible and pre
 * Which airport has the highest closeness centrality?
 * Which airport has the highest betweenness centrality?
 * Compute the heterogeneity parameter of this network.
+
+### Q3 (1 point)
+
+Draw a network in which one node has a very high value of PageRank, although the same node has low closeness and betweenness centrality (don't forget to point out the node). Use a program to validate your results.
+
+### Q4 (1 point)
+
+The damping factor (*d*) in PageRank controls how of often (probability) that the random surfer follows one of the outlinks of the current page (node) vs. going to an arbitrary page (node) on the network.
+(a) What does *d* = 0 mean? What would happen to the PageRank values in that case? Why?
+(b) What does *d* = 1 mean? Can you explain a possible problem with using that value?
 
 ## Submission
 
