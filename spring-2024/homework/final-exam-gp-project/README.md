@@ -1,5 +1,5 @@
-# Network Science (DATA 340-02) Group Project Description - Building real-world applications
-**Due:** May 15, 2023
+# Network Science (DATA 641-01/445-01) Group Project Description - Building real-world applications
+**Due:** May 14, 2024
 
 *Read this group project description before the [group project task](group-project-topic-01/)*
 
@@ -7,9 +7,9 @@
 
 The goals of this group project include fostering and assessing your problem-solving, collaboration, time management, and communication skills. These skills are essential for success in building real-world applications.
 
-This project is designed for groups of **four** members, responsible for executing four of five subtasks of the project: *Data extraction/cleaning*, *Network generation*, *Visualization*, and *Analyses*. All members must be involved in the last component *Final report/Presentation*. All team members must work together by division of labor. Even though each member is responsible for a subtask (e.g., *Data extraction*), you are encouraged to help one another and track the collective progress of your group. I will also permit groups of **two** members for those willing to accomplish multiple subtasks.
+This project is designed for groups of **four** members for undergraduates and **1** for graduates, responsible for executing four of five subtasks of the project: *Data extraction/cleaning*, *Network generation*, *Visualization*, and *Analyses*. All members must be involved in the last component *Final report/Presentation*. All team members must work together by division of labor. Even though each member is responsible for a subtask (e.g., *Data extraction*), you are encouraged to help one another and track the collective progress of your group. I will also permit groups of **two** members for those willing to accomplish multiple subtasks.
 
-A maximum of **12 individual-points** will be awarded to individuals responsible for the four subtasks of the group project. A maximum of **8 group-points** will be awarded to all members of the group for the final report and presentation, and **2 extra-credit points** reserved to reward excellence. This means, you can obtain a maximum score of 20/20 or 22/20 for this project. See [Project subtasks and point system](#project-subtasks-and-point-system) for more details. 
+A maximum of **18 individual-points** will be awarded to individuals responsible for the four subtasks of the group project. A maximum of **12 group-points** will be awarded to all members of the group for the final report and presentation, and **2 extra-credit points** reserved to reward excellence. This means, you can obtain a maximum score of 30/30 or 32/30 for this project. See [Project subtasks and point system](#project-subtasks-and-point-system) for more details. 
 
 All groups must select a group name and nominate a single member as its leader to supervise and ensure the success of the entire project. Even though there is division of labor and dependency, members must submit individual reports that explain their progress in accomplishing their subtask. For example, consider a group (called *Tribe*) consisting of four members:
 |Name |Team Role|Subtask|
@@ -24,9 +24,9 @@ In this scenario, a single member, say Liz, would submit four milestone reports 
 
 In summary, subtasks are the problems group members must solve as individuals (e.g., *Data extraction*) while milestone reports communicate progress, challenges, plans, etc. in accomplishing the goals of subtask. I expect **four** individual reports chronicling progress updates (see [Submission/Deliverables (due dates)](#submission-deliverables-due-dates).
 
-Individual report must include the team member's name, group name, the subtask's goals and objectives, and *explanations of how each milestone of the subtask was accomplished*. Individual reports should be named `gp_groupname_milestone_number` (e.g., `gp_tribe_milestone_1.md`) and uploaded into the `group-project` folder on your Github repo.
+Individual reports must include the team member's name, group name, the subtask's goals and objectives, and *explanations of how each milestone of the subtask was accomplished*. Individual reports should be named `gp_groupname_milestone_number` (e.g., `gp_tribe_milestone_1.md`) and uploaded into the `group-project` folder on your Github repo.
 
-The final report `gp_groupname_final_report` must be written by all team members, should include their names and subtask roles, and submitted on the Github repo of the team leader. A final presentation must be given to the entire class on the date of the final exam, May 15, 2023 at 2pm ET.
+The final report `gp_groupname_final_report` must be written by all team members, should include their names and subtask roles, and submitted on the Github repo of the team leader. A final presentation must be given to the entire class on the date of the final exam, May 14, 2023 at 2pm ET.
 
 ## Group formation and task division
 
@@ -38,7 +38,7 @@ Each group is responsible for selecting a group leader and assigning subtasks to
 
 The following are the subtasks for the group project.
 
-#### SUBTASK 1, Data extraction/cleaning (max 12 points):
+#### SUBTASK 1, Data extraction/cleaning (max 18 points):
 This subtask involves extracting the data - the raw material needed to address the project goals. This could also involve cleanup/transformation of the data, deciding what to collect (sample) and what to exclude (ensure to include in report) and saving the data into a machine-readable format (e.g., JSON, CSV).
 
 ##### Grading rubric
@@ -48,7 +48,7 @@ This subtask involves extracting the data - the raw material needed to address t
 * Data extraction was implemented in documented (comments and ReadMes) Python scripts (not Notebooks). Code for generating dataset is modular (uses separate files/functions) and reusable (no hard-coding). 
 * Report includes problem summary/questions, code snippets, and is clearly written: well-organized and includes few typos/grammatical errors
 
-#### SUBTASK 2, Network generation (max 12 points):
+#### SUBTASK 2, Network generation (max 18 points):
 This subtask requires transforming the data into a network model involving nodes and links to model relationships. This includes deciding what relationships to model and how (e.g., (un)directed vs. (un)weighted) to represent them.
 
 ##### Grading rubric
@@ -57,7 +57,7 @@ This subtask requires transforming the data into a network model involving nodes
 * Network generation was implemented in documented (comments and ReadMes) Python scripts (not Notebooks). Code is modular (uses separate files/functions) and reusable (no hard-coding). 
 * Report includes problem summary/questions, code snippets, and is clearly written: well-organized and includes few typos/grammatical errors
 
-#### SUBTASK 3, Visualization (max 12 points):
+#### SUBTASK 3, Visualization (max 18 points):
 This subtask involves implementing a network visualization with Gephi, Networkx, D3 or another instructor-approved tool to visualize the project network. This involves deciding the best way to visualize the network. For example, deciding the network layout (e.g., force-directed vs. circular), color scheme (e.g., color-blind friendly), and what attributes to map to channel (e.g., size, position).
 
 ##### Grading rubric
@@ -65,7 +65,7 @@ This subtask involves implementing a network visualization with Gephi, Networkx,
 * Network visualization was implemented in documented (comments and ReadMes) Python scripts (not Notebooks). Code is modular (uses separate files/functions) and reusable (no hard-coding). 
 * Report includes problem summary/questions, code snippets, and is clearly written: well-organized and includes few typos/grammatical errors
 
-#### SUBTASK 4, Analysis (max 12 points):
+#### SUBTASK 4, Analysis (max 18 points):
 This subtask involves generating statistics to understand the data and identify useful insights. It could involve presenting relevant summary statistics of the dataset. Additionally, summarizing membership of nodes and links and identifying various network phenomena (e.g., hubs, small worlds) and emphasizing important characteristics (e.g., heterogeneous distribution of node/link properties) of the network.
 
 ##### Grading rubric
@@ -74,7 +74,7 @@ This subtask involves generating statistics to understand the data and identify 
 * Analysis is sound and code provided for computing metrics. Documented (comments and Readmes) Python scripts (not Notebooks) were used. Code is modular (uses separate files/functions) and reusable (no hard-coding). 
 * Report includes problem summary/questions, code snippets, and is clearly written: well-organized and includes few typos/grammatical errors
 
-#### SUBTASK 5, Final report/Presentation (max 8 points assigned to all members):
+#### SUBTASK 5, Final report/Presentation (max 12 points assigned to all members):
 A single report that summarizes all effort taken to accomplish the group tasks. It must present/introduce the problem and have sections that document how each subtask was accomplished to address the project research questions.
 
 ##### Grading rubric
@@ -91,10 +91,9 @@ A single report that summarizes all effort taken to accomplish the group tasks. 
 
 #### Four individual reports:
 Make sure to commit and push your local repo to your private GitHub repo (inside the `group-project` folder).  Your repo should include your report, images, and any code you developed in the course of accomplishing your subtask. Include "Ready to review @anwala" in your final commit message. Here are submission deadlines for the reports:
-* Milestone report 1/5 due Apr 13
-* Milestone report 2/5 due Apr 20
-* Milestone report 3/5 due Apr 27
-* Milestone report 4/5 due May 4
+* Milestone report 1/3 due Apr 25
+* Milestone report 2/3 due May 2
+* Milestone report 3/3 due May 14
 
 #### One final reports:
-The final report must be written by all group members and submitted on the date of the final exam May 15, 2023 at 2pm ET.
+The final report must be written by all group members and submitted on the date of the final exam/presentation May 14, 2024 at 2pm ET.

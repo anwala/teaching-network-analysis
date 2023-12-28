@@ -1,5 +1,5 @@
-# Network Science (DATA 340-02) Final Project Task
-*Read the [group project description](/spring-2023/homework/hw5-group/) before this group project task*
+# Network Science (DATA 641-01/445-01) Final Project Task
+*Read the [group project description](/spring-2024/homework/final-exam-gp-project/) before this group project task*
 
 > Mapping Collaboration Networks in Film and TV Production (building a film/TV director-crew network). (This project was designed jointly by Dr. Alexander C. Nwala (Instructor) and [Dr. Arthur Knight](https://www.wm.edu/as/english/facultystaff/knight_a.php), Associate Professor, American Studies and English at W&M)
 
@@ -7,23 +7,47 @@
 
 Some renowned film directors are known to work persistently with the same key collaborators. For example, [Wes Anderson](https://en.wikipedia.org/wiki/Wes_Anderson) employed the same movie score composer, [Alexandre Desplat](https://en.wikipedia.org/wiki/Alexandre_Desplat) for multiple movies, including, [The French Dispatch](https://www.imdb.com/title/tt8847712/?ref_=nm_flmg_c_10_com) [Isle of dogs](https://www.imdb.com/title/tt5104604/?ref_=ttfc_fc_tt) and [The Grand Budapest Hotel](https://www.imdb.com/title/tt2278388/?ref_=ttfc_fc_tt). 
 
-Shifting ground to questions of access and representation: Some directors hire collaborators from groups that were historically prevented from working in the
-mainstream U.S. film industry --- e.g., African Americans, women. Among the
-reasons given by such directors is that this opens opportunities and diversifies the U.S. film
-industry creative labor pool and, thus, expands the perspectives represented in and
-benefiting from U.S. movies and TV.
+Shifting ground to questions of access and representation: Some directors hire collaborators from groups that were historically prevented from working in the mainstream U.S. film industry --- e.g., African Americans, women. Among the reasons given by such directors is that this opens opportunities and diversifies the U.S. film industry creative labor pool and, thus, expands the perspectives represented in and benefiting from U.S. movies and TV.
 
 Create a network that explores these phenomena from the following [list of directors](#list-of-directors).
 
-## Research Questions
+## Research Questions/Tasks
 
-* How widespread is the phenomenon of directors re-using the same crew? Do renowned directors (and women/minority directors) tend to work persistently with the same key collaborators and less recognized directors tend to work with shifting groups of collaborators? 
-* How will you characterize the film-director network? What are the properties (Average shortest path length, triangles aka clustering coefficient, density/sparcity)? 
-* Did you find any interesting nodes/links?
+* What is the distribution of entities in the director-crew dataset:
+  * How many (featured) movies, directors, crews, roles, avg. number of movies per director, frequency of each role?
+* How widespread is the phenomenon of directors re-using the same crew? Do renowned directors (and women/minority directors) tend to work persistently with the same key collaborators compared to lesser recognized directors or a [random Hollywood director](#random-list-of-directors)? 
+* Investigate and quantify how directors have influenced the careers of crew members. Clue: consider mapping the careers of crew members over time and see if they experienced significant success after working with a particular director. What directors have had the most influence on crew members?
+* Measure how roles of crew members fluctuate
+* How will you characterize the film-director network? What are the properties (degree dist., average shortest path length, triangles aka clustering coefficient, density/sparcity)?
 
 ## List of directors
 
 The [following list of directors](100_film_directors.csv) consists the `LastName`, `FirstName`, `Sex`, `Ethnicity_Race` (A=Asian, Asian American (incl India), B=Black, I=Indigenous (Native American, Maori), L=Latin American, W=White), `Labels` (H=top 25 highest grossing directors (excluding animation directors) and Q=identifies as LGBTQ"), and `IMDb_URI`s of 101 directors.
+
+## Roles filtering and normalization
+
+Nomalize all variants of `Cast` and `Writing Credit` to their root roles. Meaning, replace these roles, 
+* `Cast (in credits order)`, 
+* `Cast (in credits order) complete, awaiting verification`,
+* `Cast (in credits order) verified as complete`, and 
+* `Cast complete, awaiting verification`, 
+
+with `Cast`. Similarly, replace these roles, 
+* `Writing Credits (WGA)`,
+* `Writing Credits (WGA) (in alphabetical order)`, and
+* `Writing Credits (in alphabetical order)`,
+
+with `Writing Credits`. Only include crew members with the following roles:
+1. `Cinematography by`
+2. `Costume Design by`
+3. `Directed by`
+4. `Film Editing by`
+5. `Makeup Department`
+6. `Music by`
+7. `Production Design by`
+8. `Sound Department`
+9. `Special Effects by`
+10. `Writing Credits`
 
 ## Data extraction
 
