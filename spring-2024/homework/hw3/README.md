@@ -1,6 +1,7 @@
 # Homework 3 - Node centrality & Link analysis
 **Due:** March 6, 2024 by 11:59pm
- *Read the entire assignment before starting.*
+
+*Read the entire assignment before starting.*
 
 ## Assignment
 
@@ -31,7 +32,7 @@ Draw a network in which one node has a very high value of PageRank, although the
 
 ### Q4 (1 point)
 
-The damping factor (*d*) in PageRank controls how of often (probability) that the random surfer follows one of the outlinks of the current page (node) vs. going to an arbitrary page (node) on the network.
+The damping factor (*d*) in PageRank controls how of often (probability) the random surfer follows one of the outlinks of the current page (node) vs. going to a random page (node) on the network.
 (a) What does *d* = 0 mean? What would happen to the PageRank values in that case? Why?
 (b) What does *d* = 1 mean? Can you explain a possible problem with using that value?
 

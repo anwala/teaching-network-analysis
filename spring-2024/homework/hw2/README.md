@@ -1,6 +1,7 @@
 # Homework 2 - Small worlds
 **Due:** February 23, 2024 by 11:59pm
- *Read the entire assignment before starting.*
+
+*Read the entire assignment before starting.*
 
 ## Assignment
 
@@ -17,6 +18,7 @@ Perform exercises 1 -- 3
 ### Q2 (2 points)
 
 What is the central idea behind the notion of "six degrees of separation"?
+
 **a.** Social networks have high clustering coefficients
 
 **b.** Social networks are sparse

@@ -1,6 +1,7 @@
 # Homework 1 - Network Elements/Analysis Toolkit
 **Due:** February 15, 2024 by 11:59pm
- *Read the entire assignment before starting.*
+
+*Read the entire assignment before starting.*
 
 ## Assignment
 
