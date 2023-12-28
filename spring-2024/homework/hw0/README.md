@@ -89,7 +89,7 @@ Reports may be written in LaTeX and compiled into a PDF document. [Overleaf](htt
 
 1. Use the "[DATA440 - report template](https://www.overleaf.com/read/vrfznvpgyrjc)". Rename your folder containing your LaTeX files to `report`. It should contain a `report.tex` and `report.pdf`. All these should be placed inside the `hw0` folder of your private GitHub assignment repo. 
 
-2. Modify the report to include your name, class (DATA 440), assignment number/title, and dates for this exercise.
+2. Modify the report to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
 3. Replace the "Growth of the Early Web" image. Make sure to change the image caption and description of the image in the report, too.
 
