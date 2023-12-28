@@ -1,5 +1,6 @@
 # Homework 0 - Writing HW Reports
 **Due:** Thursday, February 2, 2023 by 11:59pm
+
 *Read the entire assignment before starting.*
 
 ## Assignment
@@ -14,7 +15,7 @@ For this assignment you have 2 tasks outlined by Q1 and Q2.
 
 ## Formatting Requirements
 
-All reports must include your name, class (DATA 340-02), assignment number/title, and dates. You do not need a title page.
+All reports must include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates. You do not need a title page.
 
 You *may* complete your reports in Google Collab or Markdown or LaTeX. Ensure all images, code, datasets, etc. referenced in the report are  included in your GitHub repo. Consider modifying and using these templates:
 
@@ -37,7 +38,7 @@ When you are asked to include a graph/chart in your report, they must be generat
 
 Create a private Github repo for the class and the folders for each assignment. E.g., `hw0`, `hw1`, etc:
 ```bash
-data-340-02/
+data-641-01/
 ├── README.md
 ├── hw0
 ├── hw1
@@ -52,9 +53,9 @@ This is where you'd submit all your assignments. Since this is a private Github 
 
 ### Google collab notebook
 
-1. From the `hw0` folder of your private GitHub assignment repo, create a new Python notebook file (`hw0_report.ipynb`) by editing the content of [data_340_02_report_template.ipynb](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/week-1/data_340_02_report_template.ipynb). 
+1. From the `hw0` folder of your private GitHub assignment repo, create a new Python notebook file (`hw0_report.ipynb`) by editing the content of [data_641_01_report_template.ipynb](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/week-1/data_340_02_report_template.ipynb). 
 
-2. Modify the content to include your name, class (DATA 340-02), assignment number/title, and dates for this exercise.
+2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
 3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
@@ -70,7 +71,7 @@ This is where you'd submit all your assignments. Since this is a private Github 
 
 1. From the `hw0` folder of your private GitHub assignment repo, create a new Markdown file named `hw0_report.md` and copy the content from [data440_report_template.md](https://github.com/anwala/teaching-web-science/blob/main/fall-2022/homework/hw0/data440_report_template.md) into it. 
 
-2. Modify the content to include your name, class (DATA 340-02), assignment number/title, and dates for this exercise.
+2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
 3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
