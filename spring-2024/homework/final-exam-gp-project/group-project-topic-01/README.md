@@ -38,16 +38,24 @@ with `Cast`. Similarly, replace these roles,
 * `Writing Credits (in alphabetical order)`,
 
 with `Writing Credits`. Only include crew members with the following roles:
-1. `Cinematography by`
-2. `Costume Design by`
-3. `Directed by`
-4. `Film Editing by`
-5. `Makeup Department`
-6. `Music by`
-7. `Production Design by`
-8. `Sound Department`
-9. `Special Effects by`
-10. `Writing Credits`
+1. `Casting By`
+2. `Cinematography by`
+3. `Costume Design by`
+4. `Directed by`
+5. `Film Editing by`
+6a. `hair department head (Makeup Department)`
+6b. `makeup department head (Makeup Department)`
+7. `Music by`
+8a. `producer (Produced by)`
+8b. `producer produced by (Produced by)`
+8c. `producer produced by p.g.a. (Produced by)`
+9. `Production Design by`
+10a. `re-recording mixer (Sound Department)`
+10b. `sound designer (Sound Department)`
+10c. `supervising sound editor (Sound Department)`
+11. `special effects supervisor (Special Effects by)`
+12. `visual effects supervisor (Visual Effects by)`
+13. `Writing Credits`
 
 ## Data extraction
 
