@@ -46,13 +46,13 @@ with `Writing Credits`. Only include crew members with the following roles:
 6. (a) `hair department head (Makeup Department)`
 6. (b) `makeup department head (Makeup Department)`
 7. `Music by`
-8a. `producer (Produced by)`
-8b. `producer produced by (Produced by)`
-8c. `producer produced by p.g.a. (Produced by)`
+8. (a) `producer (Produced by)`
+8. (b) `producer produced by (Produced by)`
+8. (c) `producer produced by p.g.a. (Produced by)`
 9. `Production Design by`
-10a. `re-recording mixer (Sound Department)`
-10b. `sound designer (Sound Department)`
-10c. `supervising sound editor (Sound Department)`
+10. (a) `re-recording mixer (Sound Department)`
+10. (b) `sound designer (Sound Department)`
+10. (c) `supervising sound editor (Sound Department)`
 11. `special effects supervisor (Special Effects by)`
 12. `visual effects supervisor (Visual Effects by)`
 13. `Writing Credits`
