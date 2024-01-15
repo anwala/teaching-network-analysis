@@ -43,7 +43,7 @@ with `Writing Credits`. Only include crew members with the following roles:
 3. `Costume Design by`
 4. `Directed by`
 5. `Film Editing by`
-6a. `hair department head (Makeup Department)`
+6.a `hair department head (Makeup Department)`
 6b. `makeup department head (Makeup Department)`
 7. `Music by`
 8a. `producer (Produced by)`
