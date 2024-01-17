@@ -13,12 +13,19 @@ Create a network that explores these phenomena from the following [list of direc
 
 ## Research Questions/Tasks
 
-* What is the distribution of entities in the director-crew dataset:
-  * How many (featured) movies, directors, crews, roles, avg. number of movies per director, frequency of each role?
-* How widespread is the phenomenon of directors re-using the same crew? Do renowned directors (and women/minority directors) tend to work persistently with the same key collaborators compared to lesser recognized directors or a [random Hollywood director](#random-list-of-directors)? 
-* Investigate and quantify how directors have influenced the careers of crew members. Clue: consider mapping the careers of crew members over time and see if they experienced significant success after working with a particular director. What directors have had the most influence on crew members?
-* Measure how roles of crew members fluctuate
-* How will you characterize the film-director network? What are the properties (degree dist., average shortest path length, triangles aka clustering coefficient, density/sparcity)?
+Answer all:
+1. What is the distribution of entities in the director-crew dataset:
+  * Number of featured movies? 
+  * Number of directors, number movies per director, and average number of movies per director?
+  * Number of crews?
+  * Number of roles and frequency of each role?
+2. How will you characterize the film-director network? What are the properties (degree dist., average shortest path length, triangles aka clustering coefficient, density/sparcity)?
+
+Pick two questions:
+3. Investigate and quantify how directors have influenced the careers of crew members. Clue: consider mapping the careers of crew members over time and see if they experienced significant success after working with a particular director. What directors have had the most influence on crew members?
+4. Measure how roles of crew members fluctuate
+5. How widespread is the phenomenon of directors re-using the same crew? Do renowned directors (and women/minority directors) tend to work persistently with the same key collaborators compared to lesser recognized directors or a [random Hollywood director](#random-list-of-directors)? 
+
 
 ## List of directors
 
