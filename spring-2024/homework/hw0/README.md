@@ -57,6 +57,8 @@ This is where you'd submit all your assignments. Since this is a private Github 
 
 2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
+2. (b) Write down at least 3 of your expectations (what you wish to accomplish) in this class.
+
 3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
 4. Replace the code in the fenced code block with any other block of code.  You can use some Python code, or you can insert code from a different language -- just change the language indicated so that syntax highlighting still works properly.
@@ -72,6 +74,8 @@ This is where you'd submit all your assignments. Since this is a private Github 
 1. From the `hw0` folder of your private GitHub assignment repo, create a new Markdown file named `hw0_report.md` and copy the content from [data440_report_template.md](https://github.com/anwala/teaching-web-science/blob/main/fall-2022/homework/hw0/data440_report_template.md) into it. 
 
 2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
+
+2. (b) Write down at least 3 of your expectations (what you wish to accomplish) in this class.
 
 3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
