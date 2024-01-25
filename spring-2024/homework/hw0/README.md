@@ -57,17 +57,17 @@ This is where you'd submit all your assignments. Since this is a private Github 
 
 2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
-2. (b) Write down at least 3 of your expectations (what you wish to accomplish) in this class.
+3. Write down at least 3 of your expectations (what you wish to accomplish) in this class.
 
-3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
+4. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
-4. Replace the code in the fenced code block with any other block of code.  You can use some Python code, or you can insert code from a different language -- just change the language indicated so that syntax highlighting still works properly.
+5. Replace the code in the fenced code block with any other block of code.  You can use some Python code, or you can insert code from a different language -- just change the language indicated so that syntax highlighting still works properly.
 
-5. Edit the first table so that it matches the first 4 weeks of our class schedule, as given in our [syllabus](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/syllabus.md#summary-schedule).
+6. Edit the first table so that it matches the first 4 weeks of our class schedule, as given in our [syllabus](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/syllabus.md#summary-schedule).
 
-6. In the References section, replace the placeholder references with three webpages that you've visited so far this semester related to the class. These should include both the title of the webpage/article and the URL.
+7. In the References section, replace the placeholder references with three webpages that you've visited so far this semester related to the class. These should include both the title of the webpage/article and the URL.
 
-7. Finally, make sure that your `hw0` folder in your GitHub assignments repo contains the final version of your edited report file (`hw0_report.ipynb`) and your included image.  In your final commit, use the commit message `@anwala ready to grade`.
+8. Finally, make sure that your `hw0` folder in your GitHub assignments repo contains the final version of your edited report file (`hw0_report.ipynb`) and your included image.  In your final commit, use the commit message `@anwala ready to grade`.
 
 ### Markdown
 
@@ -75,17 +75,17 @@ This is where you'd submit all your assignments. Since this is a private Github 
 
 2. Modify the content to include your name, class (DATA 641-01 or 445-01), assignment number/title, and dates for this exercise.
 
-2. (b) Write down at least 3 of your expectations (what you wish to accomplish) in this class.
+3. Write down at least 3 of your expectations (what you wish to accomplish) in this class.
 
-3. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
+4. Upload an image to your GitHub repo and include it in place of the "Growth of the Early Web" image. Make sure to change the description of the image in the report, too.
 
-4. Replace the code in the fenced code block with any other block of code.  You can use some Python code, or you can insert code from a different language -- just change the language indicated so that syntax highlighting still works properly.
+5. Replace the code in the fenced code block with any other block of code.  You can use some Python code, or you can insert code from a different language -- just change the language indicated so that syntax highlighting still works properly.
 
-5. Edit the first table so that it matches the first 4 weeks of our class schedule, as given in our [syllabus](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/syllabus.md#summary-schedule).
+6. Edit the first table so that it matches the first 4 weeks of our class schedule, as given in our [syllabus](https://github.com/anwala/teaching-network-science/blob/main/spring-2023/syllabus.md#summary-schedule).
 
-6. In the References section, replace the placeholder references with three webpages that you've visited so far this semester related to the class. These should include both the title of the webpage/article and the URL.
+7. In the References section, replace the placeholder references with three webpages that you've visited so far this semester related to the class. These should include both the title of the webpage/article and the URL.
 
-7. Finally, make sure that your `hw0` folder in your GitHub assignments repo contains the final version of your edited report file (`hw0_report.md`) and your included image.  In your final commit, use the commit message `@anwala ready to grade`.
+8. Finally, make sure that your `hw0` folder in your GitHub assignments repo contains the final version of your edited report file (`hw0_report.md`) and your included image.  In your final commit, use the commit message `@anwala ready to grade`.
 
 ### LaTeX
 
