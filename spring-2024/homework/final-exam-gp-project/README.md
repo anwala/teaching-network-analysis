@@ -91,7 +91,7 @@ A single report that summarizes all effort taken to accomplish the group tasks. 
 
 #### Four individual reports:
 Make sure to commit and push your local repo to your private GitHub repo (inside the `group-project` folder).  Your repo should include your report, images, and any code you developed in the course of accomplishing your subtask. Include "Ready to review @anwala" in your final commit message. Here are submission deadlines for the reports:
-* Milestone report 1/3 due Apr 25
+* Milestone report 1/3 due Apr 18
 * Milestone report 2/3 due May 2
 * Milestone report 3/3 due May 14
 
