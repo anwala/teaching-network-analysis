@@ -71,7 +71,7 @@ def get_full_credits_for_director(dir_id):
         return {}
     
     dir_credits = {'director_name': title, 'imdb_uri': uri, 'credits': []}
-    movies = movies.find_all('div', class_='filmo-row')        
+    movies = movies.find_all('div', class_='filmo-row')      
     for m in movies:
         
         m = get_movie_link(m, m.find(class_='year_column'))
@@ -193,9 +193,25 @@ def get_movie_duration_seconds(title_id, movie=None):
 
 def is_feature_film(title_id, movie=None):
 
-    if( get_movie_duration_seconds(title_id, movie=movie) >= 70*60 ):
+    if( movie is None ):
+        try:
+            imdb = IMDB()
+            movie = imdb.get_by_id(title_id)
+            movie = json.loads(movie)
+        except:
+            genericErrorInfo()
+
+    mov_type = movie.get('type', '').strip().lower()
+    mov_dur_secs = get_movie_duration_seconds(title_id, movie=movie)
+
+    if( mov_type in ['tvseries'] ):
+        return False
+    if( mov_type == 'movie' and mov_dur_secs >= 70*60 ):
         #feature film must be at least 70 minutes long
         return True
+    
+    if( mov_dur_secs == -1 ):
+        return is_feature_film_v2(title_id)
 
     return False
 
