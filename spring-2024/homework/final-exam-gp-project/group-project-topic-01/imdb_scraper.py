@@ -236,6 +236,11 @@ def is_feature_film_v2(title_id):
         return False
     year_rating_duration = list(year_rating_duration)
 
+    #movie_type_or_yyyy example: "2023", "TV Series", "TV Mini Series", 
+    movie_type_or_yyyy = year_rating_duration[0].text.strip().lower()
+    if( 'series' in movie_type_or_yyyy ):
+        return False
+
     #duration example: 1h 39m
     duration = year_rating_duration[-1].text.split(' ')
 
@@ -253,7 +258,7 @@ def is_feature_film_v2(title_id):
         except:
             genericErrorInfo()
 
-    if( total_seconds >= 70*60 ):
+    if( movie_type_or_yyyy.isnumeric() and total_seconds >= 70*60 ):
         #feature film must be at least 70 minutes long
         return True
 
