@@ -44,25 +44,44 @@ with `Cast`. Similarly, replace these roles,
 * `Writing Credits (WGA) (in alphabetical order)`, and
 * `Writing Credits (in alphabetical order)`,
 
-with `Writing Credits`. Only include crew members with the following roles:
+with `Writing Credits`. Only include crew members with the following roles (e.g., `Makeup Department`) and subroles aka credit (e.g., `hair department head`):
 1. `Casting By`
 2. `Cinematography by`
 3. `Costume Design by`
 4. `Directed by`
 5. `Film Editing by`
-6. (a) `hair department head (Makeup Department)`
-6. (b) `makeup department head (Makeup Department)`
-7. `Music by`
-8. (a) `producer (Produced by)`
-8. (b) `producer produced by (Produced by)`
-8. (c) `producer produced by p.g.a. (Produced by)`
-9. `Production Design by`
-10. (a) `re-recording mixer (Sound Department)`
-10. (b) `sound designer (Sound Department)`
-10. (c) `supervising sound editor (Sound Department)`
-11. `special effects supervisor (Special Effects by)`
-12. `visual effects supervisor (Visual Effects by)`
-13. `Writing Credits`
+6. `Music by`
+7. `Production Design by`
+8. `Writing Credits`
+
+`Makeup Department`
+1. `hair department head`
+2. `makeup department head`
+
+`Produced by`
+1. `producer`
+2. `producer produced by`
+3. `producer produced by p.g.a.`
+
+`Sound Department`
+1. `re-recording mixer`
+2. `sound designer`
+3. `supervising sound editor`
+
+`Special Effects by`
+1. `special effects supervisor`
+2. `visual effects supervisor`
+
+Use the following functions defined in [`imdb_scraper.py`](imdb_scraper.py) for normalization:
+```python
+#Normalize movie roles
+old_role = 'Writing Credits (WGA)'
+new_role = normalize_movie_role(old_role)
+
+#Normalize crew subroles (aka credits)
+crews = [{"name": "Daniel Pyne", "link": "https://www.imdb.com/name/nm0002417/?ref_=ttfc_fc_wr1", "credit": "(screen story) and"}, {"name": "John Logan", "link": "https://www.imdb.com/name/nm0517589/?ref_=ttfc_fc_wr2", "credit": "(screen story)"}, {"name": "John Logan", "link": "https://www.imdb.com/name/nm0517589/?ref_=ttfc_fc_wr3", "credit": "(screenplay) and"}, {"name": "Oliver Stone", "link": "https://www.imdb.com/name/nm0000231/?ref_=ttfc_fc_wr4", "credit": "(screenplay)"}]
+normalize_movie_subrole(crews)
+```
 
 ## Data extraction
 
