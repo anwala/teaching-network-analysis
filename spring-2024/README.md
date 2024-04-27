@@ -26,4 +26,4 @@
 |13|Apr 23 & 25    | Group project status updates/Q&A <br/> Modeling social media behaviors with [BLOC](https://doi.org/10.1140/epjds/s13688-023-00410-9) | Group project, milestone 1/3 due Apr 25
 |14|Apr 30 & May 2 | Group project status updates/Q&A | Group project, milestone 2/3 due May 2
 |  | Fri, May 3    |*last day of classes*             |
-|15| Fri, May 14   | Final Exam                       | *Group project, milestone 3/5 due May 14*
+|15| Tue, May 14   | Final Exam                       | *Group project, milestone 3/5 due May 14, 2PM ET*

@@ -136,7 +136,7 @@ Graduate students are expected to implement the final exam individually while un
 |13|Apr 23 & 25    | Modeling social media behaviors with [BLOC](https://doi.org/10.1140/epjds/s13688-023-00410-9) 
 |14|Apr 30 & May 2 | Group project status updates/Q&A
 |  | Fri, May 3    |*last day of classes*            
-|15| Fri, May 14   | Final exam                                 
+|15| Tue, May 14 (2pm ET) | Final exam                                 
 
 
 ### Add/drop and withdrawal deadlines:
