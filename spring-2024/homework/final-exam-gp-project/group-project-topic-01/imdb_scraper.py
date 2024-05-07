@@ -81,7 +81,7 @@ def get_full_credits_for_director(dir_id):
         
     return dir_credits
 
-def get_full_crew_for_movie(title_id, set_imdb_details=False):
+def get_full_crew_for_movie(title_id, set_imdb_details=True):
 
     def get_crew_table_dets(crew_tab):
     
